@@ -18,9 +18,11 @@ Do the following:
    HINT: no function required
 */
 
-let votingAge = "21";
+const votingAge = "18";
 if (votingAge >= 18){
-  console.log('true')
+  console.log('task 1 a:',true);//added task 1 a to help me identify this log in console below apart from other logs I run
+}else{
+  console.log(false);
 }
 
 /*
@@ -34,18 +36,12 @@ Do the following:
    HINT: no function required
 */
 
-//let vine = 'love'
-//let root = 'peace'
-//if (root === peace){
- // console.log(vine)
-  
-//}
-let a = 5;
-let b = 10;
-
-if (b > 5) {
-	a++;
-}
+let vine = 'war';
+let root = 'peace';
+if (root === 'peace'){
+ vine = 'love'
+} //my try - leaving it incomments to see my error/effort/train of thought
+console.log('task 1 b:',vine)
 
 
 
@@ -59,9 +55,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-const string = ' 1999'
-string = 1999
-console.log(string)
+ const party = '1999';
+  console.log('task 1 c;', Number(party));
 
 
 /*
@@ -73,9 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(a, b){
-    multiply (a, b)
+function multiply(a,b){
+    return a * b;
   }
+console.log('task 1 d:',multiply(2,3))
 
 
 
@@ -89,10 +85,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age/*add your code here*/){
+    return age * 7;    /*add your code here*/
 }
-console.log(dogYears())
+console.log('task 2', dogYears(6))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -141,7 +137,7 @@ Use the hungryDog function and feeding requirements below to do the following:
       return 'please try again';
     }
     }
-
+console.log('task 3', hungryDog(16, 1));
   
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -164,9 +160,20 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+ let computer= Math.random();
+
+ if (computer <= 0.34){
+   computer = 'rock';
+ }else if (computer <= 0.67){
+   computer = 'paper';
+ } else if (computer > 0.67){
+   computer = 'scissors';
+ }
 
 function game(user, computer){
-    /*add your code here*/
+    if ( user === computer){
+      return ' its a tie'
+    }
 }
   
   
