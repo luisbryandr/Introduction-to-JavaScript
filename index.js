@@ -18,7 +18,10 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = "21";
+if (votingAge >= 18){
+  console.log('true')
+}
 
 /*
 Task 1b - Values
@@ -31,7 +34,18 @@ Do the following:
    HINT: no function required
 */
 
+//let vine = 'love'
+//let root = 'peace'
+//if (root === peace){
+ // console.log(vine)
+  
+//}
+let a = 5;
+let b = 10;
 
+if (b > 5) {
+	a++;
+}
 
 
 
@@ -45,8 +59,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+const string = ' 1999'
+string = 1999
+console.log(string)
 
 
 /*
@@ -58,8 +73,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    multiply (a, b)
   }
 
 
@@ -77,7 +92,7 @@ Do the following:
 function dogYears(/*add your code here*/){
     /*add your code here*/
 }
-
+console.log(dogYears())
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -196,7 +211,7 @@ Using the annoyingSong function below do the following:
   2. At each invocation, it should RETURN this string (note: the tests are expecting the same string as below):
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
-
+/*while loop*/
 function annoyingSong(/*add your code here*/){
         /*add your code here*/
   }
