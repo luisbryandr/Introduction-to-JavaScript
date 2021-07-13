@@ -34,9 +34,13 @@ Do the following:
 
    HINT: no function required
 */
+let wussup = 'eleven'
+let yo = 12
+if(yo === 12){
+   wussup = yo
+}
 
-
-
+console.log(wussup)
 
 
 /*
@@ -50,7 +54,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let string = '1999'
+Number(string)
+console.log(string)
 
 
 /*
@@ -62,11 +68,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+   return a * b
   }
 
-
+console.log(multiply(2,4))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
