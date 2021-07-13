@@ -84,10 +84,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(year){
+ return year * 7
 }
-
+console.log(dogYears(7))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -117,9 +117,24 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age){
+    if(weight <= 5 && age >= 1){
+      return weight * 0.05
+    }else if (weight >=6 && weight <= 10 && age >= 1){
+      return weight * 0.04
+    }else if (weight >= 11 && weight<=15 && age >= 1){
+      return weight * 0.03
+    }else if (weight >15 && age >= 1){
+      return weight * 0.02
+    }else if (age >= 0.1667 && age <= 0.33){
+      return weight * 0.10
+    }else if (age >= 0.33 && age<= 0.5833){
+      return weight * 0.05
+  }else if (age >=  0.5833 && age< 1){
+    return weight * 0.04
   }
+}
+console.log('task 3', hungryDog(15,1))
 
 
 
@@ -161,10 +176,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(kilometers){
+    return kilometers * 1.6
   }
-
+console.log('task 5a', miles(5))
 
 
 //Task 5b - Feet to CM
@@ -175,10 +190,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+    return cm /30.48
   }
- 
+ console.log('task 5b', 10)
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
